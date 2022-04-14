@@ -47,7 +47,7 @@ class Quarto {
     }
   }
 
-  public int diasPorPaciente(int nun) {
+  int diasPorPaciente(int nun) {
     return 1;
   }
 
