@@ -2,7 +2,7 @@
 class Paciente {
   String nome;
   Medico medico;
-  int diasInternado;
+  int diasInternado=2;
 
   void exibirRelatorioPac() {
     System.out.print("nome paciente:" + nome);
@@ -11,6 +11,7 @@ class Paciente {
   }
 
   int retornarDiasInternado() {
-    return 1;
+    System.out.print("Dias internado" + diasInternado);
+    return diasInternado;
   }
 }

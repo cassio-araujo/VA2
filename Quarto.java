@@ -53,14 +53,21 @@ class Quarto {
 
   void verificarQuartoVazio() {
     if (paciente01 == null) {
-
+  System.out.println("paciente 1 esta vazio");
     }
     if (paciente02 == null) {
+  System.out.println("paciente 2 esta vazio");
 
     }
     if (paciente03 == null) {
+  System.out.println("paciente 3 esta vazio");
 
     }
+    else{
+  System.out.println("nao ha quartos vazios");
+      
+    }
+    
   }
 
 }

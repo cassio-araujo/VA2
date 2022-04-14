@@ -4,6 +4,7 @@ class Ala {
   Quarto quarto;
 
   void exibirRelatorio(){
-    String relatorio = id + especialidade + verificarQuartoVazio;
+    String relatorio = id + especialidade; quarto.verificarQuartoVazio();
+    System.out.println(relatorio);
   }
 }
